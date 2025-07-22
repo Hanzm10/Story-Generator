@@ -1,0 +1,42 @@
+      body {
+        font-family: helvetica, sans-serif;
+        width: 350px;
+        padding: 10px;
+        border: solid black 2px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      div {
+        padding-bottom: 20px;
+      }
+
+      input[type="text"] {
+        padding: 5px;
+        width: 150px;
+      }
+
+      p {
+        background: #ffc125;
+        color: #5e2612;
+        padding: 10px;
+        visibility: hidden;
+        border-radius: 10px;
+      }
+
+      .randomize {
+        border-radius: 5px;
+        border: solid rgba(0, 0, 0, 0.66) 1px;
+        padding: 5px 8px;
+      }
+
+      .randomize, #uk, #us:hover {
+        cursor: pointer;
+      }
+
+      #customname {
+        border-radius: 5px;
+        border: solid rgba(0, 0, 0, 0.327) 1px;
+      }
